@@ -1,0 +1,10 @@
+{
+  "description": "Connects healthcare job seekers and employers through tailored role selection, care activity tracking, location preferences, and guided salary insights.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
