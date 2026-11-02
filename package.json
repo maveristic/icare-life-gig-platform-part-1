@@ -7,7 +7,10 @@
     "build": "vite build --config vite.figma.config.ts",
     "dev": "vite --host 0.0.0.0 --config vite.figma.config.ts",
     "preview": "vite preview --config vite.figma.config.ts",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "dev:astro": "astro dev --host 0.0.0.0",
+    "build:astro": "astro build",
+    "preview:astro": "astro preview --host 0.0.0.0"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -66,7 +69,9 @@
     "tw-animate-css": "1.3.8",
     "vaul": "1.1.2",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "@astrojs/react": "^4.4.2",
+    "astro": "^5.16.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
